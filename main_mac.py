@@ -1,5 +1,5 @@
 from PIL import Image
-import platform
+import platform_
 import os
 from pypdf import PdfMerger
 
