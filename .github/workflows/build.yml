@@ -24,7 +24,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Windows_qwiklabs
-          path: dist/qwiklab_badge_checker.exe
+          path: dist/main.exe
 
       - name: create release
         id: create_release
